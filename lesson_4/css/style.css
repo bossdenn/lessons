@@ -1,0 +1,117 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+*{
+	/* color: red; */
+}
+
+p{
+	/* color: red; */
+}
+
+div{
+	/* color: red; */
+}
+
+h1{
+	/* color: green; */
+}
+
+a{
+	/* color: blue; */
+}
+
+li{
+	/* color: grey; */
+}
+
+.text{
+	/* color: blueviolet; */
+}
+
+.link{
+	/* color: aqua; */
+}
+
+#some-link{
+	/* color: black; */
+}
+
+div.content{
+	/* color: chartreuse; */
+}
+
+.page__text.text{
+	/* color: yellow; */
+}
+
+li{
+	/* color: blue; */
+}
+
+ol{
+	/* color: greenyellow; */
+}
+
+h1,
+li, 
+h3,
+.link{
+/* color: red; */
+}
+
+.text a{
+	/* color: blue; */
+}
+
+.text .green_text{
+	/* color: green; */
+}
+
+.text *{
+	/* color: indigo; */
+}
+
+.text > p {
+	/* color: red; */
+}
+.text ~ p {
+	/* color: blue; */
+}
+
+.text + p {
+	/* color: red; */
+}
+
+[class*="_container"] {
+	/* color: red; */
+}
+
+#some-text {
+	color: blueviolet !important;
+}
+
+p.some-p {
+	color: orange;
+}
+
+.some-p {
+	color: blue;
+}
+
+p {
+	color: green;
+}
+
+* {
+	color: aqua;
+}
+
+.hero_container {
+	color: darkblue;
+}
+
+[class*="_container"] {
+	color: red;
+}
+
